@@ -14,6 +14,7 @@ def long_planeteer_calls(short_words)
    a << name.length
   end
  a.any?{|n| n > 3}
+ a.any?{|n| n < 3}
 end 
 
 def find_the_cheese# code an argument here

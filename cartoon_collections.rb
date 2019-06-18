@@ -9,11 +9,11 @@ def summon_captain_planet(elements)
 end
 
 def long_planeteer_calls(short_words)
- a = []
+  a = []
    short_words.each do |name|
     a << name.length
    end
-a.any?{|n| n > 3}
+  a.any?{|n| n > 3}
 end 
 
 def find_the_cheese# code an argument here

@@ -13,9 +13,10 @@ def long_planeteer_calls(short_words)
    short_words.each do |name|
    a << name.length
   end
- a.any?{|n| n > 3}
- a.any?{|n| n < 3}
+if a.any?{|n| n > 3}
+ else a.any?{|n| n < 3}
 end 
+end
 
 def find_the_cheese# code an argument here
   # the array below is here to help
